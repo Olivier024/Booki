@@ -121,7 +121,17 @@ a {
     margin-bottom: 5px;
 }
 
+.liens {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    text-decoration: overline #0065FC;    
+}
 
+.liens:hover {
+     background-color: #0065FC           
+}
 
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
