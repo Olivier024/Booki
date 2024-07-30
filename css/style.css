@@ -126,7 +126,8 @@ a {
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: flex-end;
-    text-decoration: overline #0065FC;    
+    text-decoration: overline #0065FC;
+        
 }
 
 .liens:hover {
