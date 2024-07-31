@@ -23,7 +23,18 @@ body {
     max-width: 1440px;
     padding: 0 50px;
     box-sizing: border-box;
-}
+    }
+
+.liens {
+    display: flex;
+    text-align:justify;
+    justify-content: flex-end;
+    text-decoration: overline #0065FC;
+    }
+
+.liens:hover {
+        background-color: #0065FC           
+    }
 
 a {
     color: inherit;
@@ -120,20 +131,6 @@ a {
 .populaires-cards .card-rating {
     margin-bottom: 5px;
 }
-
-.liens {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: flex-end;
-    text-decoration: overline #0065FC;
-        
-}
-
-.liens:hover {
-     background-color: #0065FC           
-}
-
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
