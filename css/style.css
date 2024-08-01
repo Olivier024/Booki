@@ -23,18 +23,29 @@ body {
     max-width: 1440px;
     padding: 0 50px;
     box-sizing: border-box;
-    }
+}
 
 .liens {
-    display: flex;
-    text-align:justify;
-    justify-content: flex-end;
-    text-decoration: overline #0065FC;
-    }
+    display: inline-flex;
+    background-color: grey;
+    flex-wrap: nowrap;
+    flex-direction: row-reverse;
+    width: 85%;
+    
+}    
 
-.liens:hover {
-        background-color: #0065FC           
-    }
+li {
+    display: inline-flex;
+    justify-content: space-between;
+    padding-top: 17%;
+    
+        
+}
+
+li:hover {
+    color: #0065FC;           
+    text-decoration: overline #0065FC;
+}
 
 a {
     color: inherit;
