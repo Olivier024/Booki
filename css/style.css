@@ -27,19 +27,18 @@ body {
 
 .liens {
     display: inline-flex;
-    background-color: grey;
+    ackground-color: grey;
     flex-wrap: nowrap;
-    flex-direction: row-reverse;
+    justify-content: flex-end;
     width: 85%;
-    
-}    
+}     
 
 li {
     display: inline-flex;
-    justify-content: space-between;
-    padding-top: 17%;
-    
-        
+    flex-wrap: nowrap;
+    padding-top: 10%;
+    position: relative;
+    bottom:70%;
 }
 
 li:hover {
