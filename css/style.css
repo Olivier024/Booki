@@ -4,7 +4,7 @@
 }
 
 ul {
-   margin: 0px;
+   margin: 0;
    padding: 0; 
 }
 
@@ -50,8 +50,6 @@ header img {
     justify-content: flex-end;
     gap: 30px;
 }
-
-
 
 li {
     padding-top: 10px;
