@@ -21,18 +21,23 @@ ul {
 .fa-location-dot {
     color: black;
     background-color: var(--main-bg-color);
-    padding: 15px;
+    padding-top: 14px;
+    padding-bottom: 16px;
+    padding-left: 15px;
+    padding-right: 15px;
     font-size: 1.2em;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
 } 
 
 input {
-
-    border: solid 10px;
+    font-weight: bold;
+    border: solid 1px;
     border-color: var(--main-bg-color);
-    padding-top: 15px;
+    padding-top: 17px;
     padding-bottom: 15px;
+    margin-left: -5px;
+    margin-right: -1px;
 }
 
 .search {
@@ -40,8 +45,7 @@ input {
     color: var(--main-bg-color);
     font-size: 1em;
     font-weight: bold;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding: 15px; 
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
     border: none;
