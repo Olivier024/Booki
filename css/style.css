@@ -20,6 +20,11 @@ ul {
 
 .fa-location-dot {
     color: black;
+    background-color: var(--main-bg-color);
+    padding: 15px;
+    font-size: 1.2em;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
 } 
 
 .search {
@@ -27,9 +32,15 @@ ul {
     color: var(--main-bg-color);
     font-size: 1em;
     font-weight: bold;
-    padding: 20px 20px;
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
+    padding: 15px 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border: none;
+}
+
+h1 {
+    font-size: 1.3em;
+    
 }
 
 body {
@@ -52,7 +63,7 @@ header {
 }
 
 header img {
-    width: 61px;
+    width: 60px;
     height: 20px;
     padding-top: 20px;
 }
@@ -62,6 +73,7 @@ header img {
     flex-wrap: nowrap;
     justify-content: flex-end;
     gap: 30px;
+    padding-bottom: 50px;
 }
 
 li {
