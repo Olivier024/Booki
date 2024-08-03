@@ -27,12 +27,21 @@ ul {
     border-bottom-left-radius: 10px;
 } 
 
+input {
+
+    border: solid 10px;
+    border-color: var(--main-bg-color);
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
 .search {
     background-color: var(--main-color);
     color: var(--main-bg-color);
     font-size: 1em;
     font-weight: bold;
-    padding: 15px 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
     border: none;
