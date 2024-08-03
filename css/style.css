@@ -21,23 +21,29 @@ ul {
 .fa-location-dot {
     color: black;
     background-color: var(--main-bg-color);
-    padding-top: 14px;
-    padding-bottom: 16px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-top: 13px;
+    padding-bottom: 17px;
+    padding-left: 20px;
+    padding-right: 18px;
     font-size: 1.2em;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
 } 
 
 input {
+    font-size: 1.1em;
     font-weight: bold;
     border: solid 1px;
     border-color: var(--main-bg-color);
-    padding-top: 17px;
-    padding-bottom: 15px;
+    padding-top: 12px;
+    padding-bottom: 14px;
     margin-left: -5px;
     margin-right: -1px;
+}
+
+::placeholder {
+    color: black;
+    text-align: center;
 }
 
 .search {
@@ -53,7 +59,6 @@ input {
 
 h1 {
     font-size: 1.3em;
-    
 }
 
 body {
