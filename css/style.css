@@ -111,9 +111,9 @@ header img {
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
-    gap: 50px;
+    gap: 15px;
     list-style: none;
-    
+    padding: 15px 0 15px 0;
 }
 
 .lifilters {
@@ -126,6 +126,10 @@ header img {
     gap: 10px;
     font-weight: bold;
     font-size: 17px;
+}
+
+.lifilters:active {
+    background-color: var(--filter-bg-color)
 }
 
 a {
