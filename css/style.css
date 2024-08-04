@@ -96,15 +96,32 @@ header img {
     padding-bottom: 50px;
 }
 
-li {
+.liheader {
     padding-top: 10px;
     list-style: none;
     border-top: 2px solid transparent;
 }
 
-li:hover {
+.liheader:hover {
     color: var(--main-color);           
     border-top:2px solid var(--main-color);
+}
+
+.filtersf {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 50px;
+    list-style: none;
+    
+}
+
+.lifilters {
+    border: solid 2px var(--main-bg-color);
+    padding: 4px 19px 4px 19px;
+    border-radius: 25px;
+    height: 50px;
+    text-align: center;
 }
 
 a {
