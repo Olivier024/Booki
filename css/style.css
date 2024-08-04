@@ -132,12 +132,17 @@ header img {
     background-color: var(--filter-bg-color)
 }
 
+.infos {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
 .fa-info {
     border: solid 1px var(--main-bg-color);
     padding: 7px 10px;
     border-radius: 50%;
     font-size: 0.6em;
-    
 }
 
 a {
