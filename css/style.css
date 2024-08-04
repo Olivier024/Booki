@@ -113,15 +113,14 @@ header img {
     flex-wrap: wrap;
     gap: 15px;
     list-style: none;
-    padding: 15px 0;
 }
 
 .lifilters {
     display: flex;
     border: solid 2px var(--main-bg-color);
-    padding: 4px 22px;
+    height: 46px;
+    padding: 0 10px;   
     border-radius: 25px;
-    height: 50px;
     align-items: center;
     gap: 10px;
     font-weight: bold;
@@ -136,7 +135,7 @@ header img {
     display: flex;
     gap: 10px;
     align-items: center;
-    padding-bottom: 15px;
+    padding: 15px 0;
 }
 
 .fa-info {
