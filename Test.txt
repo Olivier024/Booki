@@ -10,3 +10,8 @@
 .liens:hover {
      background-color: #0065FC           
 }
+
+    margin-left: -5px;
+    margin-right: -1px;
+
+        border-radius: 15px 0 0 15px;
