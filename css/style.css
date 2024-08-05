@@ -18,6 +18,114 @@ ul {
     color: var(--main-color);
 }
 
+h1 {
+    font-size: 1.3em;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.main-container {
+    width: 100%;
+    max-width: 1440px;
+    padding: 0 50px;
+    box-sizing: border-box;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.section-title {
+    margin: 0;
+    font-size: 22px;
+}
+
+.card {
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px;
+    filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
+}
+
+.card img {
+    object-fit: cover;
+}
+
+.card-title {
+    font-size: 16px;
+}
+
+.euro {
+    font-weight: 700;
+}
+
+.neutral-star {
+    color: var(--main-bg-color)
+}
+
+/****** Header ***********/
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header img {
+    width: 60px;
+    height: 20px;
+    padding-top: 20px;
+}
+
+.liens {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    gap: 30px;
+    padding-bottom: 50px;
+}
+
+.liheader {
+    padding-top: 10px;
+    list-style: none;
+    border-top: 2px solid transparent;
+}
+
+.liheader:hover {
+    color: var(--main-color);           
+    border-top:2px solid var(--main-color);
+}
+
+/****** Filtres ***********/
+.filters {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 15px;
+    list-style: none;
+}
+
+.lifilters {
+    display: flex;
+    border: solid 2px var(--main-bg-color);
+    height: 46px;
+    padding: 0 10px;   
+    border-radius: 25px;
+    align-items: center;
+    gap: 10px;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.lifilters:active {
+    background-color: var(--filter-bg-color)
+}
+
+/****** Formulaire ***********/
 .formulaire {
     display: flex;
     flex-wrap: nowrap;
@@ -59,78 +167,7 @@ input {
     border: none;
 }
 
-h1 {
-    font-size: 1.3em;
-}
-
-body {
-    display: flex;
-    justify-content: center;
-    margin: 0;
-    padding: 0;
-}
-
-.main-container {
-    width: 100%;
-    max-width: 1440px;
-    padding: 0 50px;
-    box-sizing: border-box;
-}
-
-header {
-    display: flex;
-    justify-content: space-between;
-}
-
-header img {
-    width: 60px;
-    height: 20px;
-    padding-top: 20px;
-}
-
-.liens {
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: flex-end;
-    gap: 30px;
-    padding-bottom: 50px;
-}
-
-.liheader {
-    padding-top: 10px;
-    list-style: none;
-    border-top: 2px solid transparent;
-}
-
-.liheader:hover {
-    color: var(--main-color);           
-    border-top:2px solid var(--main-color);
-}
-
-.filters {
-    display: flex;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-    gap: 15px;
-    list-style: none;
-}
-
-.lifilters {
-    display: flex;
-    border: solid 2px var(--main-bg-color);
-    height: 46px;
-    padding: 0 10px;   
-    border-radius: 25px;
-    align-items: center;
-    gap: 10px;
-    font-weight: bold;
-    font-size: 17px;
-}
-
-.lifilters:active {
-    background-color: var(--filter-bg-color)
-}
-
+/****** Infos ***********/
 .infos {
     display: flex;
     gap: 10px;
@@ -143,39 +180,6 @@ header img {
     padding: 7px 10px;
     border-radius: 50%;
     font-size: 0.6em;
-}
-
-a {
-    color: inherit;
-    text-decoration: none;
-}
-
-.section-title {
-    margin: 0;
-    font-size: 22px;
-}
-
-.card {
-    background-color: white;
-    border-radius: 20px;
-    padding: 5px;
-    filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
-}
-
-.card img {
-    object-fit: cover;
-}
-
-.card-title {
-    font-size: 16px;
-}
-
-.euro {
-    font-weight: 700;
-}
-
-.neutral-star {
-    color: var(--main-bg-color)
 }
 
 /****** Hebergements And Populaires ***********/
@@ -194,6 +198,10 @@ a {
 /****** Hebergements ***********/
 .hebergements {
     width: 65%;
+}
+
+.hebergement-cards .card {
+    background-color: gray;
 }
 
 /****** Populaires ***********/
