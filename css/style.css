@@ -200,10 +200,8 @@ input {
     width: 65%;
 }
 
-.hebergement-cards .card-content {
-    display: flex;
-    margin-top: 33px;
-    justify-content: space-evenly;
+.hebergement-cards {
+    background-color: grey;
 }
 
 .hebergement-cards img {
