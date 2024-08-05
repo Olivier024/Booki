@@ -201,7 +201,9 @@ input {
 }
 
 .hebergement-cards {
-    background-color: grey;
+    display: flex;
+    margin-top: 33px;
+    flex-wrap: wrap;
 }
 
 .hebergement-cards img {
@@ -209,6 +211,12 @@ input {
     height: 114px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+    object-fit: none;
+}
+
+.hebergement-cards .card-content {
+    display: flex;
+
 }
 
 /****** Populaires ***********/
