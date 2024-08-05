@@ -1,21 +1,2 @@
-.liens {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: flex-end;
-    text-decoration: overline #0065FC;
-        
-}
-
-.liens:hover {
-     background-color: #0065FC           
-}
-
-    margin-left: -5px;
-    margin-right: -1px;
-
-        border-radius: 15px 0 0 15px;
-
-        a:active {
-            background-color: --
-        }
+    justify-content Centrage horizontal
+    align-items Centrage vertical
