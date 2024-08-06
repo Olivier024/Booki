@@ -204,19 +204,21 @@ input {
     display: flex;
     margin-top: 33px;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .hebergement-cards img {
-    width: 100%;
+    width: 250px;
     height: 114px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    object-fit: none;
+    object-fit: cover;
 }
 
 .hebergement-cards .card-content {
     display: flex;
-
+    flex-direction: column;
+    background-color: pink;
 }
 
 /****** Populaires ***********/
