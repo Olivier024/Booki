@@ -1,2 +1,4 @@
     justify-content Centrage horizontal
     align-items Centrage vertical
+
+    object-fit: cover;

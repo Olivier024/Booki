@@ -203,7 +203,7 @@ input {
 
 /****** Hebergements ***********/
 .hebergements {
-    width: 65%;
+    width: 66%;
 }
 
 .hebergement-cards {
@@ -215,11 +215,10 @@ input {
 }
 
 .hebergement-cards img {
-    width: 250px;
+    width: 240px;
     height: 114px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    object-fit: cover;
 }
 
 .hebergement-cards .card-content {
