@@ -2,3 +2,8 @@
     align-items Centrage vertical
 
     object-fit: cover;
+
+    witdh %
+    img et card
+
+    height card.

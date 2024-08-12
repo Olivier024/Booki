@@ -137,7 +137,6 @@ header img {
     flex-wrap: nowrap;
     padding: 30px 0;
     height: 49px; 
-    gap: -5px;  
 }
 
 .fa-location-dot {
@@ -323,8 +322,25 @@ input {
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
     /* ... */
-header {
-    flex-direction: column;
+    header {
+        flex-direction: column;
 }
 
+    .main-container {
+         padding: 0 20px;
+}
+
+    .filters {
+        width: 100%;
+}
+
+    .filters h1 {
+        width: 100%;
+}
+
+    .lifilters {
+        width: calc(50% - 30px);
+        padding: 0;
+}
+    
 }
