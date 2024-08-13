@@ -282,6 +282,17 @@ input {
     margin-bottom: 5px;
 }
 
+/****** Activités ***********/
+.activites {
+    display: flex;
+    justify-content: space-between;
+}
+
+.activites img {
+    height: 380px;
+    width: 100%;
+}
+
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
 /****** Media queries ***********/
@@ -324,23 +335,22 @@ input {
     /* ... */
     header {
         flex-direction: column;
-}
+    }
 
     .main-container {
-         padding: 0 20px;
-}
+        padding: 0 20px;
+    }
 
     .filters {
         width: 100%;
-}
+    }
 
     .filters h1 {
         width: 100%;
-}
+    }
 
     .lifilters {
         width: calc(50% - 30px);
         padding: 0;
-}
-    
+    }
 }
