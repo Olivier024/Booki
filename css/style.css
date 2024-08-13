@@ -311,6 +311,11 @@ h5 {
     padding-left: 20px;
 }
 
+/****** Activités ***********/
+h6 {
+    font-size: 16px;
+}
+
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
 /****** Media queries ***********/
