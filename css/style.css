@@ -285,10 +285,16 @@ input {
 /****** Activités ***********/
 .activites {
     display: flex;
-    justify-content: space-between;
+
+}
+
+.activites .card {
+    padding: 0;
+    width: 91%;
 }
 
 .activites img {
+    border-radius: 20px 20px 0 0;
     height: 380px;
     width: 100%;
 }
