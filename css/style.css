@@ -316,14 +316,14 @@ h5 {
 footer {
     display: flex;
     justify-content: flex-start;
-    gap: 200px;
-    margin-top: 50px;
+    margin-top: 40px;
     background-color: var(--main-bg-color);
     padding: 20px;
 }
 
 .ulfooter {
     display: flex;
+    flex: 1;
     gap: 15px;
     flex-direction: column;
 }
