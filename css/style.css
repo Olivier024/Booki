@@ -131,6 +131,12 @@ header img {
     background-color: var(--filter-bg-color)
 }
 
+h7 {
+    font-size: 1.3em;
+    font-weight: bold;
+    padding-top: 10px;   
+}
+
 /****** Formulaire ***********/
 .formulaire {
     display: flex;
