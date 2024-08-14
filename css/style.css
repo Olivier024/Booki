@@ -312,8 +312,30 @@ h5 {
 }
 
 /****** Activités ***********/
-h6 {
+
+footer {
+    display: flex;
+    justify-content: flex-start;
+    gap: 200px;
+    margin-top: 50px;
+    background-color: var(--main-bg-color);
+    padding: 20px;
+}
+
+.ulfooter {
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+}
+
+.lifooter {
+    list-style: none;
     font-size: 16px;
+}
+
+h6 {
+    font-size: 18px;
+    margin: 0;
 }
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
