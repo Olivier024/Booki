@@ -358,6 +358,10 @@ h6 {
         width: 100%;
     }
 
+    h7 {
+        width: 100%;
+    }
+
     .populaires {
         width: 100%;
         margin-top: 50px;
@@ -379,6 +383,23 @@ h6 {
 
     .populaires-cards .card-subtitle {
         font-size: 13px;
+    }
+
+    .activites {
+        padding-left: 35px;
+    }
+
+    .activites .card {
+        width: 193.5px;
+        height: 270px;
+    }
+    
+    .activites img {
+        height: 200px;
+    }
+
+    h5 {
+        padding-left: 35px;
     }
 }
 
