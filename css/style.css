@@ -440,9 +440,8 @@ h6 {
     }
 
     .liens {
-        justify-content: center;
-        width: 100%;
         padding-bottom: 20px;
+        gap: 120px;
     }
 
     .liheader {
@@ -454,6 +453,19 @@ h6 {
         color: var(--main-color);           
         border-bottom:2px solid var(--main-color);
         border-top: hidden;
+    }
+
+    .liheader::after {
+        padding-bottom: 10px;
+        border-bottom: 2px solid transparent;
+        width:200%;
+    }
+
+    
+    .liheader:hover::after {
+        color: var(--main-color);           
+        border-bottom:2px solid var(--main-color);
+        width:200%;
     }
 
     .filters {
