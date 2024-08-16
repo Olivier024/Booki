@@ -168,8 +168,8 @@ input {
 }
 
 ::placeholder {
+    padding-left: 10px;
     color: black;
-    text-align: center;
     opacity: 1; /* Firefox */
 }
 
@@ -230,17 +230,26 @@ button {
 
 .hebergement-cards {
     display: flex;
+    gap: 20px;
     margin-top: 33px;
     flex-wrap: wrap;
     justify-content: space-between;
     flex-direction: row;
 }
 
+.hebergements .card {
+    height: 210px;
+}
+
 .hebergement-cards img {
-    width: 240px;
+    width: 100%;
     height: 114px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+}
+
+.hebergements a {
+    flex:1;
 }
 
 .hebergement-cards .card-content {
@@ -313,10 +322,13 @@ button {
     padding: 30px;
 }
 
+.activites a {
+    flex:1;
+}
+
 .activites .card {
     padding: 0;
     height: 439px;
-    width: 297.5px;
 }
 
 .activites img {
@@ -367,7 +379,8 @@ h6 {
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
     .hebergements-and-populaires {
-        flex-direction: column;
+        flex-direction: column-reverse;
+  
     }
 
     .hebergements {
@@ -406,7 +419,6 @@ h6 {
     }
 
     .activites .card {
-        width: 193.5px;
         height: 270px;
     }
     
@@ -436,36 +448,31 @@ h6 {
     }
 
     .main-container {
-        padding: 0 20px;
+        padding: 0;
+    }
+    
+    nav {
+        width: 100%;
     }
 
     .liens {
+        width: 100%;
         padding-bottom: 20px;
-        gap: 120px;
+        gap: 0;
+ 
     }
 
     .liheader {
+        text-align: center;
+        width: 50%;
         padding-bottom: 10px;
-        border-bottom: 2px solid transparent;
+        border-bottom: 2px solid #F2F2F2;
     }
     
     .liheader:hover {
         color: var(--main-color);           
         border-bottom:2px solid var(--main-color);
         border-top: hidden;
-    }
-
-    .liheader::after {
-        padding-bottom: 10px;
-        border-bottom: 2px solid transparent;
-        width:200%;
-    }
-
-    
-    .liheader:hover::after {
-        color: var(--main-color);           
-        border-bottom:2px solid var(--main-color);
-        width:200%;
     }
 
     .filters {
@@ -498,6 +505,10 @@ h6 {
 
     .search {
         display: none;
+    }
+
+    .intro {
+        padding: 0 20px;
     }
 
     /****** Hebergement ***********/
