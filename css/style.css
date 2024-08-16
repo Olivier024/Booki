@@ -182,6 +182,19 @@ input {
     border: none;
 }
 
+button {
+    display: none;
+    width: 49px;
+    border-radius: 15px;
+    background-color: #0065FC;
+    border: none;
+}
+
+.fa-magnifying-glass {
+    color: #DEEBFF;
+    font-size: 17px;
+}
+
 /****** Infos ***********/
 .infos {
     display: flex;
@@ -414,14 +427,24 @@ h6 {
 @media (max-width: 767.98px) {
     /* ... */
     header {
-        flex-direction: column;
+       flex-direction: column;
+       align-items: center;
+    }
+
+    header img {
+        padding: 20px;       
     }
 
     .main-container {
         padding: 0 20px;
     }
 
-     .filters {
+    .liens {
+        justify-content: center;
+        width: 100%;
+    }
+
+    .filters {
         width: 100%;
         justify-content: center;
     }
@@ -436,17 +459,31 @@ h6 {
         justify-content: center;
     }
 
+    button {
+        display: block;
+    }
+
+    .search {
+        display: none;
+    }
+
     .hebergements-and-populaires section {
         padding: 0;
+        background-color: white;
     }
 
     .hebergement-cards {
         gap: 30px;
-
-
     }
 
     .card {
+        display: flex;
         width: 100%;
+        flex-direction: column;
+    }
+
+    .hebergements img {
+        width: 335px;
+        justify-content: center;
     }
 }
