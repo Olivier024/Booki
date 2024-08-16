@@ -432,7 +432,7 @@ h6 {
     }
 
     header img {
-        padding: 20px;       
+        padding: 30px;       
     }
 
     .main-container {
@@ -442,6 +442,18 @@ h6 {
     .liens {
         justify-content: center;
         width: 100%;
+        padding-bottom: 20px;
+    }
+
+    .liheader {
+        padding-bottom: 10px;
+        border-bottom: 2px solid transparent;
+    }
+    
+    .liheader:hover {
+        color: var(--main-color);           
+        border-bottom:2px solid var(--main-color);
+        border-top: hidden;
     }
 
     .filters {
@@ -457,6 +469,10 @@ h6 {
         width: calc(45% - 10px);
         padding: 0;
         justify-content: center;
+    }
+
+    input {
+        width: 70%;
     }
 
     button {
@@ -478,12 +494,22 @@ h6 {
 
     .card {
         display: flex;
-        width: 100%;
         flex-direction: column;
     }
 
+    .hebergements a {
+        width: 100%;
+    }
+
     .hebergements img {
-        width: 335px;
-        justify-content: center;
+        width: 100%;        
+    }
+
+    .activites {
+        flex-direction: column;
+    }
+
+    footer {
+        flex-direction: column;
     }
 }
