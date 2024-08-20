@@ -502,11 +502,6 @@ footer h3 {
     height: 46px;
   }
 
-  h4 {
-    margin: 0;
-    padding-bottom: 20px;
-  }
-
   input {
     width: 70%;
   }
@@ -531,13 +526,18 @@ footer h3 {
   }
 
   section.hebergements {
-    padding: 0 20px;
+    padding: 15px 20px;
     background-color: white;
   }
 
   .hebergement-cards {
+    margin-top: 15px;
     flex-direction: column;
     gap: 15px;
+  }
+
+  .hebergement-cards .card {
+    height: 197px;
   }
 
   .herbergements .card {
