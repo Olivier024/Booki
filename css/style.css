@@ -527,15 +527,17 @@ footer h3 {
 
   .hebergements-and-populaires {
     flex-direction: column-reverse;
+    gap: 15px;
   }
 
   section.hebergements {
-    padding: 0;
+    padding: 0 20px;
     background-color: white;
   }
 
   .hebergement-cards {
-    gap: 30px;
+    flex-direction: column;
+    gap: 15px;
   }
 
   .herbergements .card {
@@ -557,8 +559,6 @@ footer h3 {
 
   section.populaires {
     margin-top: 0;
-    padding-left: 20px;
-    padding-right: 20px;
     border-radius: 0;
   }
 
@@ -592,6 +592,10 @@ footer h3 {
   /****** Activites ***********/
 
   .activites {
+    flex-direction: column;
+  }
+
+  .activites-content {
     flex-direction: column;
   }
 
