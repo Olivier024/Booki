@@ -491,7 +491,7 @@ footer h3 {
     justify-content: center;
   }
 
-  .filters h1 {
+  .filters h2 {
     width: 100%;
   }
 
@@ -499,6 +499,7 @@ footer h3 {
     width: calc(50% - 12px);
     padding: 0;
     justify-content: center;
+    height: 46px;
   }
 
   h4 {
@@ -523,6 +524,10 @@ footer h3 {
   }
 
   /****** Hebergement ***********/
+
+  .hebergements-and-populaires {
+    flex-direction: column-reverse;
+  }
 
   section.hebergements {
     padding: 0;
@@ -552,10 +557,9 @@ footer h3 {
 
   section.populaires {
     margin-top: 0;
-    padding-left: 0;
-    padding-right: 0;
-    margin-left: -20px;
-    background-color: pink;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 0;
   }
 
   .populaires-cards .card {
@@ -574,11 +578,11 @@ footer h3 {
 
   .populaires-cards img {
     width: 35%;
-    height: 146px;
+    height: 136px;
   }
 
   .populaires .card-title {
-    font-size: 19px;
+    font-size: 16px;
   }
 
   .populaires .card-subtitle {
