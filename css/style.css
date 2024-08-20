@@ -239,7 +239,7 @@ button {
 .hebergement-cards {
   display: flex;
   gap: 20px;
-  margin-top: 33px;
+  margin-top: 30px;
   flex-wrap: wrap;
   justify-content: space-between;
   flex-direction: row;
@@ -276,6 +276,12 @@ button {
 .hebergement-cards .card-title {
   margin: 0;
   padding: 5px 0;
+}
+
+.show {
+  font-size: 18px;
+  font-weight: bold;
+  padding-top: 30px;
 }
 
 /****** Populaires ***********/
@@ -375,7 +381,7 @@ footer {
   font-size: 16px;
 }
 
-h6 {
+footer h3 {
   font-size: 18px;
   margin: 0;
 }
