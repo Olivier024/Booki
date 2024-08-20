@@ -540,11 +540,6 @@ footer h3 {
     height: 197px;
   }
 
-  .herbergements .card {
-    display: flex;
-    flex-direction: column;
-  }
-
   .hebergements a {
     width: 100%;
     gap: 4px;
