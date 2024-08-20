@@ -552,7 +552,11 @@ footer h3 {
 
   .hebergements img {
     width: 100%;
-    height: 124px;
+    height: 114px;
+  }
+
+  .show {
+    padding-top: 10px;
   }
 
   /****** Populaires ***********/
@@ -560,6 +564,7 @@ footer h3 {
   section.populaires {
     margin-top: 0;
     border-radius: 0;
+    padding: 30px 20px;
   }
 
   .populaires-cards .card {
@@ -593,6 +598,15 @@ footer h3 {
 
   .activites {
     flex-direction: column;
+    padding-left: 30px;
+  }
+
+  .activites .card {
+    height: 200px;
+  }
+
+  .activites img {
+    height: 141px;
   }
 
   .activites-content {
