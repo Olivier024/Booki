@@ -519,7 +519,6 @@ footer h3 {
   }
 
   /****** Hebergement ***********/
-
   .hebergements-and-populaires {
     flex-direction: column-reverse;
     gap: 15px;
@@ -555,7 +554,6 @@ footer h3 {
   }
 
   /****** Populaires ***********/
-
   section.populaires {
     margin-top: 0;
     border-radius: 0;
@@ -590,7 +588,6 @@ footer h3 {
   }
 
   /****** Activites ***********/
-
   .activites {
     flex-direction: column;
     padding-left: 30px;
@@ -609,7 +606,6 @@ footer h3 {
   }
 
   /****** Footer ***********/
-
   footer {
     flex-direction: column;
   }
