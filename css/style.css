@@ -141,11 +141,14 @@ header img {
   gap: 10px;
   font-weight: bold;
   font-size: 17px;
+  cursor: pointer;
 }
 
-.lifilters:active {
+.lifilters:active, .lifilters:hover {
   background-color: var(--filter-bg-color);
 }
+
+
 
 .filters h2 {
   font-size: 18px;
@@ -377,6 +380,7 @@ footer {
 }
 
 .lifooter {
+  margin-bottom: 10px;
   list-style: none;
   font-size: 16px;
 }
@@ -483,7 +487,7 @@ footer h3 {
   .liheader:hover {
     color: var(--main-color);
     border-bottom: 2px solid var(--main-color);
-    border-top: hidden;
+    border-top: 2px solid transparent;
   }
 
   .filters {
@@ -508,6 +512,7 @@ footer h3 {
 
   button {
     display: block;
+    margin-left: -10px;
   }
 
   .search {
