@@ -226,7 +226,8 @@ button {
     justify-content: space-between;
 }
 
-.hebergements-and-populaires section {
+.hebergements-and-populaires section,
+.hebergements-and-populaires aside {
     background-color: var(--main-bg-color);
     border-radius: 20px;
     padding: 30px;
