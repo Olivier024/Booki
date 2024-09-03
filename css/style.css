@@ -555,7 +555,7 @@ footer h3 {
     }
 
     /****** Populaires ***********/
-    section.populaires {
+    aside.populaires {
         margin-top: 0;
         border-radius: 0;
         padding: 30px 20px;
